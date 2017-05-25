@@ -29,12 +29,13 @@ public class ActTestSteps {
 
 	}
 
+	
 	/**
 	 * Auto-generated code snippet by QMetry Automation Framework.
 	 */
 	@QAFTestStep(description = "user verify homepage")
 	public void userVerifyHomepage() {
-
+		System.out.println("   ");
 		homeTestPage.verifyHomePage();
 	}
 
