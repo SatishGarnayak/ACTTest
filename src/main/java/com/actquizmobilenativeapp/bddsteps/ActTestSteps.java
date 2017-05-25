@@ -35,7 +35,7 @@ public class ActTestSteps {
 	 */
 	@QAFTestStep(description = "user verify homepage")
 	public void userVerifyHomepage() {
-		System.out.println("   ");
+		//System.out.println("   ");
 		homeTestPage.verifyHomePage();
 	}
 
