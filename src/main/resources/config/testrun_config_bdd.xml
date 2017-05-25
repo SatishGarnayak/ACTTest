@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAS Demo" verbose="0" parallel="tests">
+
+	<listeners>
+		<listener class-name="com.quantum.listerners.QuantumReportiumListener" />
+	</listeners>
+
+	<test name="BDD Test" enabled="true">
+		<parameter name="scenario.file.loc" value="src/main/resources/scenarios" />
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
+		</classes>
+	</test>
+
+	<!-- <test name="Android BDD Test" enabled="true"> -->
+	<!-- <parameter name="scenario.file.loc" value="scenarios" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+
+
+</suite>

@@ -1,0 +1,8 @@
+home.btn.profile = {\"locator\":\"xpath=//android.view.ViewGroup[@resource-id='com.jquiz.act:id/pager_tab_strip']//android.widget.TextView[1]\",\"desc\":\"button for profile\"}
+home.btn.learningfeed = {\"locator\":\"xpath=//android.view.ViewGroup[@resource-id='com.jquiz.act:id/pager_tab_strip']//android.widget.TextView[3]\",\"desc\":\"button for learning feed\"}
+home.logo.ACT = {\"locator\":\"xpath=//android.view.ViewGroup[@resource-id='com.jquiz.act:id/pager_tab_strip']//android.widget.TextView[2]\",\"desc\":\"home logo\"}
+home.lbl.home = {\"locator\":\"xpath=//android.widget.TextView[@text='Home']\",\"desc\":\"home label\"}
+home.loader.app = {\"locator\":\"id=com.jquiz.act:id/tvLoading\",\"desc\":\"load bar for launch app\"}
+home.lst.cmp.quiz = {\"locator\":\"xpath=//android.widget.ImageView\",\"desc\":\"home page items\"}
+home.btn.collections = {\"locator\":\"xpath=//android.widget.LinearLayout[@instance='23']\",\"desc\":\"button for Collections\"}
+home.btn.statistics = {\"locator\":\"xpath=//android.widget.LinearLayout[@instance='15']\",\"desc\":\"button for Statistics\"}

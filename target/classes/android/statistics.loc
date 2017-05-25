@@ -1,0 +1,4 @@
+statistics.lnk.quizsubject = {\"locator\":\"xpath=//*[contains(@text,'%s')]\",\"desc\":\"select quiz by subject name\"}
+statistics.lbl.points = {\"locator\":\"xpath=//*[@resource-id='com.jquiz.act:id/tvScore']\",\"desc\":\"user score points\"}
+statistics.btn.submit = {\"locator\":\"xpath=//*[@text='Submit score']\",\"desc\":\"button for submit score\"}
+statistics.header = {\"locator\":\"xpath=//android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup\",\"desc\":\"header bar\"}

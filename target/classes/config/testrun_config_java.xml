@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAS Demo" verbose="0" parallel="methods" thread-count="3">
+
+	<listeners>
+		<listener class-name="com.quantum.listerners.QuantumReportiumListener" />
+	</listeners>
+
+	<test name="android  Test" enabled="true">
+	<groups>
+	<run>
+	<include name="P1"></include>
+	</run>
+	</groups>
+		<classes>
+			<class name="com.actquizmobilenativeapp.tests.NewTest">
+			
+			</class>
+		</classes>
+	</test>
+</suite>

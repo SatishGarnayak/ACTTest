@@ -1,0 +1,5 @@
+quizstart.title.page = {\"locator\":\"xpath=//android.widget.TextView[@text='Take a quiz']\",\"desc\":\"page title\"}
+quizstart.btn.start = {\"locator\":\"xpath=//*[@text='Start']\",\"desc\":\"button for start quiz\"}
+quizstart.no.questions.selected = {\"locator\":\"xpath=//android.widget.Spinner\",\"desc\":\"no of questions selected\"}
+quizstart.lbl.score = {\"locator\":\"xpath=//android.widget.TextView[contains(@text,'Your score')]\",\"desc\":\"label for score\"}
+quizstart.header = {\"locator\":\"xpath=//android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup\",\"desc\":\"quiz start header bar\"}

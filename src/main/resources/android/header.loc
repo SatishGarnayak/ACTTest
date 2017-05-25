@@ -1,0 +1,10 @@
+header.btn.back = {\"locator\":\"xpath=.//android.widget.LinearLayout[contains(@content-desc,'Navigate up')]\",\"desc\":\"button for navigate back\"}
+header.btn.comment = {\"locator\":\"xpath=.//*[@content-desc='Comment']\",\"desc\":\"button for comment\"}
+header.btn.help = {\"locator\":\"xpath=.//*[@content-desc='Help']\",\"desc\":\"button for help\"}
+header.btn.mark = {\"locator\":\"xpath=.//*[@content-desc='Mark']\",\"desc\":\"button for mark\"}
+header.lst.radio.mark = {\"locator\":\"xpath=.//android.widget.RadioButton\",\"desc\":\"list of marks avail\"}
+header.lbl.quizselected = {\"locator\":\"xpath=.//android.widget.LinearLayout[contains(@content-desc,'Navigate up')]//android.widget.TextView\",\"desc\":\"selected quiz label\"}
+header.alert.exit.yes = {\"locator\":\"xpath=//*[@text='Yes']\",\"desc\":\"exit alert yes button\"}
+header.alert.exit.cancel = {\"locator\":\"xpath=//*[@text='Cancel']\",\"desc\":\"exit alert cancel button\"}
+header.btn.view = {\"locator\":\"Name=View\",\"desc\":\"view button for mark selection\"}
+header.statistics.subjectspinner = {\"locator\":\"xpath=.//*[@resource-id='android:id/action_bar_spinner']\",\"desc\":\"dropdown button for quiz subject selection\"}

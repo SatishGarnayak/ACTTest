@@ -1,0 +1,9 @@
+profile.lbl.username = {\"locator\":\"xpath=//android.widget.TextView[@text='Your name:']/following-sibling::android.widget.TextView\",\"desc\":\"username\"}
+profile.lbl.livingin = {\"locator\":\"xpath=//*[@text='Living in:']/following-sibling::android.widget.TextView\",\"desc\":\"user location\"}
+profile.lbl.aboutyou = {\"locator\":\"xpath=//*[@text='About you:']/following-sibling::android.widget.TextView\",\"desc\":\"about user\"}
+profile.lbl.totalscore = {\"locator\":\"xpath=//*[@text='Total score:']/following-sibling::android.widget.TextView\",\"desc\":\"total points earned\"}
+profile.edit.updateinfo = {\"locator\":\"xpath=//android.widget.EditText\",\"desc\":\"update info\"}
+profile.btn.ok = {\"locator\":\"xpath=//android.widget.Button[@text='Ok']\",\"desc\":\"button for Ok\"}
+profile.btn.cancel = {\"locator\":\"xpath=//android.widget.Button[@text='Cancel']\",\"desc\":\"button for cancel\"}
+profile.txt.username = {\"locator\":\"xpath=//android.widget.ImageView/following-sibling::android.widget.TextView\",\"desc\":\"username along with  avatar\"}
+profile.btn.home = {\"locator\":\"xpath=//android.view.ViewGroup/android.widget.TextView[2]\"}

@@ -1,0 +1,5 @@
+questions.btn.show = {\"locator\":\"xpath=//*[@text='Show']\",\"desc\":\"button for show\"}
+questions.lbl.question = {\"locator\":\"xpath=//android.widget.ListView/android.widget.RelativeLayout[2]/android.widget.TextView\",\"desc\":\"label for question\"}
+questions.lst.options = {\"locator\":\"xpath=//android.widget.ListView//android.widget.TextView[2]\",\"desc\":\"options list\"}
+questions.header = {\"locator\":\"xpath=//android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup\",\"desc\":\"header component\"}
+questions.lst.no.question = {\"locator\":\"xpath=//android.widget.HorizontalScrollView//android.widget.TextView\",\"desc\":\"list of questions\"}

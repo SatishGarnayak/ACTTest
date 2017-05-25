@@ -1,0 +1,4 @@
+collections.lnk.quizsubject = {\"locator\":\"xpath=//android.widget.TextView[@text='ACT %s']\",\"desc\":\"select collections subject\"}
+collections.header = {\"locator\":\"xpath=//android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup\",\"desc\":\"collections header\"}
+collections.lst.questions = {\"locator\":\"xpath=//android.widget.ListView//android.widget.TextView\",\"desc\":\"questions list\"}
+collections.lst.quizes = {\"locator\":\"xpath=//android.widget.HorizontalScrollView//android.widget.TextView\",\"desc\":\"quiz subjects\"}

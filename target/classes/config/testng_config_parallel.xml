@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAS Demo" verbose="0" parallel="tests" thread-count="2">
+
+	<test name="android BDD Test1" enabled="true">
+		<classes>
+			<class name="com.perfecto.sample.tests.SampleTests"></class>
+		</classes>
+	</test>
+
+	<test name="android BDD Test2" enabled="true">
+		<classes>
+			<class name="com.perfecto.sample.tests.SampleTests"></class>
+		</classes>
+	</test>
+
+
+</suite>

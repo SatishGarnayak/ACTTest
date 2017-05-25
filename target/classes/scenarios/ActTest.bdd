@@ -1,0 +1,43 @@
+
+
+SCENARIO: 1
+META-DATA: {"description":"Update user profile"}
+
+	Given user launches the ACT Test application
+	Then user verify homepage
+	When user click on profile icon
+	Then user verify profilePage
+	When user update user info and go back
+	And user click on profile icon
+	Then user verify  the updated info
+		
+END
+
+SCENARIO: 2
+META-DATA: {"description":"Master a Question","dataFile":"src/main/resources/data/userdata.csv"}
+
+	Given user launches the ACT Test application
+	Then user verify homepage
+	When user select '${quiz}' quiz by name
+	Then user verify quiz page and click on start button
+	When user mark the question in questionpage
+	And user Navigates to homepage
+	And user Navigates to collection screen
+	Then user select previous quiz type and verify the question displayed in list
+	
+
+END
+
+SCENARIO: 3
+META-DATA: {"description":"Verify Stats","dataFile":"src/main/resources/data/userdata.csv"}
+
+	Given user launches the ACT Test application
+	Then user verify homepage
+	When user select '${quiz}' Quiz by name
+	Then user verify quiz start page and get the points earned
+	When store into 'startPagePoints'
+	And user navigates back to home page
+	And user select statistics screen
+	Then user verify statistics page and get the points present in statistics
+	And user matches both points earned in quiz 'startPagePoints' and points present in Statistics
+	Then user navigates back and swipes up
