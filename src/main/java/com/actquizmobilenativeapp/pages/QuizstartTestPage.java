@@ -46,7 +46,14 @@ public class QuizstartTestPage extends WebDriverBaseTestPage<WebDriverTestPage> 
 	public HeaderBar getQuizstartHeader() {
 		return quizstartHeader;
 	}
-	
+
+
+
+
+
+
+
+
 	public void verifyStartQuiz() {
 		getQuizstartTitlePage().waitForPresent();
 		getQuizstartTitlePage().verifyVisible();
